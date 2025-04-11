@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Add a New Recipe</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <!-- navigation bar section -->
+        <nav>
+          <a href="index.html">Home</a><br>
+          <a href="add-recipe.html">Add Recipe</a><br>
+          <a href="recipe-list.html">Recipe List</a>
+        </nav>
+      </header>
+      <main>
+        <!--add new recipe section (form)-->
+        <h1>Add a New Recipe</h1>
+        <form>
+          <label>Recipe Name*:<br><input type="text" name="recipeName" required></label><br><br>
+          <label>Ingredients*:<br><textarea name="ingredients" rows="5" required></textarea></label><br><br>
+          <label>Cooking Instructions*:<br><textarea name="instructions" rows="6" required></textarea></label><br><br>
+          <label>Image URL*:<br><input type="url" name="imageURL" required></label><br><br>
+          <label>Recipe Category*:<br>
+            <select name="category" required>
+              <option value="">Select Category</option>
+              <option>Desserts</option>
+              <option>Appetizers</option>
+              <option>Vegan</option>
+              <option>Quick Meals</option>
+            </select>
+          </label><br><br>
+          <button type="submit">Add Recipe</button>
+        </form>
+      </main><br><br><br>
+      <!-- footer section of page -->
+      <footer>
+        <p>&copy; 2025 Zahra's Recipe Book. All rights reserved.</p>
+        <p style="line-height: 1.6;">
+          Contact: 
+          <a href="mailto:nazariz673@gmail.com">nazariz673@gmail.com</a>
+          &nbsp; | &nbsp;
+          <a href="https://www.instagram.com/zahra_n6733" target="_blank" style="display: inline-flex; align-items: center; vertical-align: middle;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+                 alt="Instagram" 
+                 style="width: 20px; height: 20px; margin-right: 5px; display: inline-block;">
+            <span style="display: inline-block; vertical-align: middle;">zahra_n6733</span>
+          </a>
+        </p>
+      </footer>
+</body>
+</html>
